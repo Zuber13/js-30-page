@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.heading {
+    margin: 0;
+    font-weight: normal;
+    font-size: 60px;
+    color: #747847;
+    text-shadow: 8px 5px 30px #000;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .boxes {
+    width: 300px;
+    height: 250px;
+    border: 2px solid #ddd;
+    display: inline-block;
+    margin: 15px 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    background: #fff;
+    box-shadow: 4px 8px 3px #ddd;
+}
+
+.boxes h2 {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1066px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:648px) {
+    .container .boxes {
+        max-width: 220px;
+        height: 220px;
+        margin: 5px 3px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .container .boxes {
+        max-width: 190px;
+        height: 190px;
+        margin: 1px;
+        font-size: 20px;
+    }
+}
